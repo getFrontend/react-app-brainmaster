@@ -5,6 +5,7 @@ import { navigation } from "../constants";
 import Button from "./Button";
 import { HamburgerMenu } from "./design/Header";
 import MenuSvg from "../assets/svg/MenuSvg";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
   const pathname = useLocation();
@@ -13,12 +14,17 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
+      enablePageScroll();
     } else {
       setOpenNavigation(true);
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
+    if (!openNavigation) return;
+
+    enablePageScroll();
     setOpenNavigation(false);
   };
 
@@ -28,11 +34,7 @@ const Header = () => {
       ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a
-          className="block w-[12rem] xl:mr-8"
-          href="#hero"
-          onClick={handleClick}
-        >
+        <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img
             src={brainmaster}
             width={196}
@@ -57,6 +59,7 @@ const Header = () => {
                   ? "z-2 lg:text-n-1"
                   : "lg:text-n-1/50"
               }`}
+                onClick={handleClick}
               >
                 {item.title}
               </a>
