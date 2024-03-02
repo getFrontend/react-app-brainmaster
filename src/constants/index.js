@@ -1,10 +1,4 @@
 import {
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
