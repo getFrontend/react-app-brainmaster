@@ -6,7 +6,7 @@ const Heading = ({ className, title, accent }) => {
       {title && (
         <h2 className="h2">
           {title}
-          <span className="text-purple-500">{accent || ""}</span>
+          {accent && <span className="text-purple-500">{accent || ""}</span>}
         </h2>
       )}
     </div>
