@@ -1,4 +1,4 @@
-import { brainwaveWhiteSymbol, gradient, play } from "../../assets";
+import { brainmasterWhiteSymbol, gradient, play } from "../../assets";
 import ChatBubbleWing from "../../assets/svg/ChatBubbleWing";
 
 export const Gradient = () => {
@@ -18,7 +18,7 @@ export const Gradient = () => {
 export const PhotChatMessage = () => {
   return (
     <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
-      Hey Brainwave, enhance this photo
+      Hey Brainmaster, enhance this photo
       <ChatBubbleWing className="absolute left-full bottom-0" />
     </div>
   );
@@ -30,10 +30,10 @@ export const VideoChatMessage = () => {
       Video generated!
       <div className="absolute left-5 -bottom-[1.125rem] flex items-center justify-center w-[2.25rem] h-[2.25rem] bg-color-1 rounded-[0.75rem]">
         <img
-          src={brainwaveWhiteSymbol}
+          src={brainmasterWhiteSymbol}
           width={26}
           height={26}
-          alt="Brainwave"
+          alt="Brainmaster symbol"
         />
       </div>
       <p className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">
