@@ -75,6 +75,14 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import companyLogo1 from "./companylogos/yourlogo-1.png";
+import companyLogo2 from "./companylogos/yourlogo-2.png";
+import companyLogo3 from "./companylogos/yourlogo-3.png";
+import companyLogo4 from "./companylogos/yourlogo-4.png";
+import companyLogo5 from "./companylogos/yourlogo-5.png";
+import companyLogo6 from "./companylogos/yourlogo-6.png";
+import companyLogo7 from "./companylogos/yourlogo-7.png";
+
 export {
   brainmaster,
   check,
@@ -144,4 +152,11 @@ export {
   instagram,
   telegram,
   twitter,
+  companyLogo1,
+  companyLogo2,
+  companyLogo3,
+  companyLogo4,
+  companyLogo5,
+  companyLogo6,
+  companyLogo7
 };
