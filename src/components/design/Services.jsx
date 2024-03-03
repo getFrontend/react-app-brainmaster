@@ -7,7 +7,7 @@ export const Gradient = () => {
       <img
         className="absolute top-1/2 left-1/2 w-[79.5625rem] max-w-[79.5625rem] h-[88.5625rem] -translate-x-1/2 -translate-y-1/2"
         src={gradient}
-        width={1417}
+        width={1273}
         height={1417}
         alt="Gradient"
       />
