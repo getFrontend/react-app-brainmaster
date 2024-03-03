@@ -4,6 +4,11 @@ import {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
+  benefitImage3,
+  benefitImage4,
+  benefitImage5,
+  benefitImage6,
+  benefitImage7,
   chromecast,
   companyLogo1,
   companyLogo2,
@@ -268,7 +273,7 @@ export const benefits = [
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
     light: true,
   },
   {
@@ -277,7 +282,7 @@ export const benefits = [
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage4,
   },
   {
     id: "3",
@@ -285,7 +290,7 @@ export const benefits = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage5,
     light: true,
   },
   {
@@ -294,7 +299,7 @@ export const benefits = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage6,
   },
   {
     id: "5",
@@ -302,7 +307,7 @@ export const benefits = [
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage7,
     light: true,
   },
 ];
