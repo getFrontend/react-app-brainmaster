@@ -1,3 +1,4 @@
+import { MouseParallax } from "react-just-parallax";
 import { smallSphere, stars } from "../assets";
 import Button from "./Button";
 import Heading from "./Heading";
@@ -15,16 +16,18 @@ const Pricing = () => {
             alt="Sphere"
             width={255}
             height={255}
-            className="relative z-1"
+            className="relative z-1 animate-spin-slow"
           />
           <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-            <img
-              src={stars}
-              alt="stars"
-              width={950}
-              height={400}
-              className="w-full"
-            />
+            <MouseParallax strength={0.07}>
+              <img
+                src={stars}
+                alt="stars"
+                width={950}
+                height={400}
+                className="w-full"
+              />
+            </MouseParallax>
           </div>
         </div>
         <Heading
