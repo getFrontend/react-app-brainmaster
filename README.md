@@ -1,3 +1,7 @@
+# About
+
+![](https://github.com/getFrontend/react-app-brainmaster/blob/main/public/brainmaster-preview.png?raw=true)
+
 ## PageSpeed Insights
 
 <img src="https://github.com/getFrontend/react-app-brainmaster/blob/main/public/brainmaster-mobile.png?raw=true" width="49%"/> <img src="https://github.com/getFrontend/react-app-brainmaster/blob/main/public/brainmaster-desktop.png?raw=true" width="49%"/>
