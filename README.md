@@ -29,3 +29,4 @@
 - _Cool Gradients_: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 
 - _Responsive_: Ensures seamless functionality and aesthetics across all devices, and many more, including code architecture and reusability.
+
