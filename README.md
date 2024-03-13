@@ -30,3 +30,4 @@
 
 - _Responsive_: Ensures seamless functionality and aesthetics across all devices, and many more, including code architecture and reusability.
 
+
